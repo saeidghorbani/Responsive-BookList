@@ -1,0 +1,31 @@
+body {
+  background-color: #f2f2fb;
+}
+/* Top Header Styles */
+header {
+  color: #2e3554;
+}
+
+/* Bookform and Table Styles */
+
+.book-form-container,
+.table-container {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #2e3554;
+  color: white;
+}
+
+/* Wrap long Book titles or names in td cells */
+td {
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+table {
+  table-layout: fixed;
+}
